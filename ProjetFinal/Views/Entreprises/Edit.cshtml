@@ -1,0 +1,47 @@
+﻿@model ProjetFinal.Models.Entreprise
+
+@{
+    ViewData["Title"] = "Modifier une entreprise";
+}
+
+<h1>Modifier une entreprise</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit" method="post">
+            @Html.AntiForgeryToken()
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input type="hidden" asp-for="Id" />
+
+            <div class="mb-2">
+                <label asp-for="Nom" class="form-label"></label>
+                <input asp-for="Nom" class="form-control" />
+                <span asp-validation-for="Nom" class="text-danger"></span>
+            </div>
+
+            <div class="mb-2">
+                <label asp-for="DateCreation" class="form-label"></label>
+                <input asp-for="DateCreation" class="form-control" type="date" />
+                <span asp-validation-for="DateCreation" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="AdresseId" class="form-label">Adresse</label>
+                <select asp-for="AdresseId" class="form-select" asp-items="ViewBag.AdresseId"></select>
+                <span asp-validation-for="AdresseId" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enregistrer</button>
+            <a asp-action="Index" class="btn btn-secondary ms-2">Retour à la liste</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

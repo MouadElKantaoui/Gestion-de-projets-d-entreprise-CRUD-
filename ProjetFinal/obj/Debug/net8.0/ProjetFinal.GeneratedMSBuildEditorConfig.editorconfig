@@ -1,0 +1,145 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProjetFinal
+build_property.RootNamespace = ProjetFinal
+build_property.ProjectDir = C:\Users\mouad\source\repos\ProjetFinal\ProjetFinal\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\mouad\source\repos\ProjetFinal\ProjetFinal
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Adresses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRyZXNzZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Adresses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRyZXNzZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Adresses/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRyZXNzZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Adresses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRyZXNzZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Adresses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRyZXNzZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Developpeurs/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2ZWxvcHBldXJzXEFjY2Vzc0RlbmllZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Developpeurs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2ZWxvcHBldXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Developpeurs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2ZWxvcHBldXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Developpeurs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2ZWxvcHBldXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Developpeurs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2ZWxvcHBldXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Developpeurs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2ZWxvcHBldXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Developpeurs/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2ZWxvcHBldXJzXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Entreprises/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmVwcmlzZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Entreprises/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmVwcmlzZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Entreprises/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmVwcmlzZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Entreprises/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmVwcmlzZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Entreprises/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmVwcmlzZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Projets/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamV0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Projets/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamV0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Projets/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamV0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Projets/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamV0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Projets/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamV0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mouad/source/repos/ProjetFinal/ProjetFinal/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-e6vo95pnyn

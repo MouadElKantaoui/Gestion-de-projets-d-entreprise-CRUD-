@@ -1,0 +1,59 @@
+﻿@model ProjetFinal.Models.Developpeur
+
+@{
+    ViewData["Title"] = "Modifier un développeur";
+}
+
+<h1>Modifier un développeur</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit" method="post">
+            @Html.AntiForgeryToken()
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input type="hidden" asp-for="Id" />
+
+            <div class="mb-2">
+                <label asp-for="Nom" class="form-label"></label>
+                <input asp-for="Nom" class="form-control" />
+                <span asp-validation-for="Nom" class="text-danger"></span>
+            </div>
+
+            <div class="mb-2">
+                <label asp-for="Code" class="form-label"></label>
+                <input asp-for="Code" class="form-control" type="number" min="1" />
+                <span asp-validation-for="Code" class="text-danger"></span>
+            </div>
+
+            <div class="mb-2">
+                <label asp-for="MotDePasse" class="form-label"></label>
+                <input asp-for="MotDePasse" class="form-control" type="password" />
+                <span asp-validation-for="MotDePasse" class="text-danger"></span>
+            </div>
+
+            <div class="mb-2">
+                <label asp-for="Anciennete" class="form-label"></label>
+                <select asp-for="Anciennete" class="form-select" asp-items="ViewBag.AncienneteList"></select>
+                <span asp-validation-for="Anciennete" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="EntrepriseId" class="form-label">Entreprise</label>
+                <select asp-for="EntrepriseId" class="form-select" asp-items="ViewBag.EntrepriseId"></select>
+                <span asp-validation-for="EntrepriseId" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enregistrer</button>
+            <a asp-action="Index" class="btn btn-secondary ms-2">Retour à la liste</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

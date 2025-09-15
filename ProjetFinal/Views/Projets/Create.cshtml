@@ -1,0 +1,58 @@
+﻿@model ProjetFinal.Models.Projet
+
+@{
+    ViewData["Title"] = "Créer un projet";
+}
+
+<h1>Créer un projet</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create" method="post">
+            @Html.AntiForgeryToken()
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="mb-3">
+                <label asp-for="Titre" class="form-label"></label>
+                <input asp-for="Titre" class="form-control" />
+                <span asp-validation-for="Titre" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Progression" class="form-label"></label>
+                <input asp-for="Progression" class="form-control" type="number" min="0" max="100" />
+                <span asp-validation-for="Progression" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Deadline" class="form-label"></label>
+                <input asp-for="Deadline" class="form-control" type="date" />
+                <span asp-validation-for="Deadline" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="EntrepriseId" class="form-label"></label>
+                <select asp-for="EntrepriseId" class="form-select" asp-items="ViewBag.EntrepriseId"></select>
+                <span asp-validation-for="EntrepriseId" class="text-danger"></span>
+            </div>
+
+            <!-- N–N : développeurs assignés -->
+            <div class="mb-3">
+                <label class="form-label">Développeurs assignés</label>
+                <select name="DeveloppeursIds" class="form-select" asp-items="ViewBag.DeveloppeursIds" multiple size="6"></select>
+                <div class="form-text">Maintiens Ctrl (Windows) ou ⌘ (Mac) pour sélectionner plusieurs développeurs.</div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Créer</button>
+            <a asp-action="Index" class="btn btn-secondary ms-2">Retour à la liste</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

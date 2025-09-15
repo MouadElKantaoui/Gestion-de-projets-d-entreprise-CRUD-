@@ -1,0 +1,63 @@
+﻿@model ProjetFinal.Models.Adresse
+
+@{
+    ViewData["Title"] = "Créer une adresse";
+}
+
+<h1>Créer une adresse</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create" method="post">
+            @Html.AntiForgeryToken()
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="mb-2">
+                <label asp-for="Pays" class="form-label"></label>
+                <input asp-for="Pays" class="form-control" />
+                <span asp-validation-for="Pays" class="text-danger"></span>
+            </div>
+
+            <div class="mb-2">
+                <label asp-for="Province" class="form-label"></label>
+                <input asp-for="Province" class="form-control" />
+                <span asp-validation-for="Province" class="text-danger"></span>
+            </div>
+
+            <div class="mb-2">
+                <label asp-for="Ville" class="form-label"></label>
+                <input asp-for="Ville" class="form-control" />
+                <span asp-validation-for="Ville" class="text-danger"></span>
+            </div>
+
+            <div class="mb-2">
+                <label asp-for="Voie" class="form-label"></label>
+                <input asp-for="Voie" class="form-control" />
+                <span asp-validation-for="Voie" class="text-danger"></span>
+            </div>
+
+            <div class="mb-2">
+                <label asp-for="Numero" class="form-label"></label>
+                <input asp-for="Numero" class="form-control" />
+                <span asp-validation-for="Numero" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="CodePostal" class="form-label"></label>
+                <input asp-for="CodePostal" class="form-control" />
+                <span asp-validation-for="CodePostal" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Créer</button>
+            <a asp-action="Index" class="btn btn-secondary ms-2">Retour à la liste</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
